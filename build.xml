@@ -1,0 +1,13 @@
+<project name="MyProject" default="build-java" basedir="out">
+    <description>
+        simple example build file
+    </description>
+
+
+
+    <target name="purge-superfluous">
+        <jar destfile="stripped.jar">
+            <zipfileset src="./artifacts/TribuneClipper.jar" excludes="files/to/exclude/**/*.file"/>
+        </jar>
+    </target>
+</project>
