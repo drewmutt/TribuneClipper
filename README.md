@@ -1,0 +1,1 @@
+This is a tool for exporting clips of newspapers to Wikimedia Commons.
